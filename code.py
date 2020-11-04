@@ -5,16 +5,6 @@
 
 
 import csv
-'''
-#Converting text file to csv file.
-with open('C:/Users/Hitesh Kumar/Desktop/House-votes-data.txt', 'r') as in_file:
-    stripped = (line.strip() for line in in_file)
-    lines = (line.split(",") for line in stripped if line)
-    with open('C:/Users/Hitesh Kumar/Desktop/House-votes-data.csv', 'w') as out_file:
-        writer = csv.writer(out_file)
-        writer.writerow(('votes1','votes2','votes3','votes4','votes5','votes6','votes7','votes8','votes9','votes10','votes11','votes12','votes13','votes14','votesint(len(X))/4','votes16','type'))
-        writer.writerows(lines)
-'''
 
 # In[52]:
 
